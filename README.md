@@ -1,46 +1,61 @@
-# 📊 Grafana Blueprint: Zero to Hero
+# Grafana Blueprint — Zero to Hero (Global Edition)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white)
+![Observability](https://img.shields.io/badge/Observability-Dashboards-blue)
+![Level](https://img.shields.io/badge/Level-Zero%20to%20Hero-green)
 
-Built by Nkechi Anna Ahanonye — Cloud & DevOps Engineer | I turn manual, 3 AM-breaking deployments into 1-min automated pipelines with AWS + Ansible + Terraform | Featured: 15-Module Ansible Lab with real terminal
+> **From empty dashboard to production observability — one panel at a time.**
 
-For DevOps students who need relatable, hands-on examples — not textbook theory.
+Built by Nkechi Anna Ahanonye — Cloud & DevOps Engineer.
+Live: https://nkydigitech.github.io/grafana-blueprint/
 
----
+## Who Is This For?
+Global beginners to SREs — DevOps students, platform engineers, anyone who needs to make infrastructure visible. Zero Grafana experience needed. Global analogies only.
 
-## Dashboards and Data Visualization
+## The Global Analogy System (Easy Grab)
+- **Grafana = Control Room TV Wall** — many screens showing what's happening in your house/factory
+- **Prometheus = Electricity Meter** that collects numbers every second
+- **Data Source = Water Tank / Power Plant** — where numbers come from (Prometheus, Loki, CloudWatch, MySQL)
+- **Panel = Single TV Screen / Widget** — one chart, one stat, one table
+- **Dashboard = Whole Wall of TVs** — collection of panels telling a story
+- **Alert = Smoke Alarm** — screams when something goes wrong
+- **Variable/Templating = Remote Control** — change channel (server, env) without rebuilding wall
+- **Provisioning = House Blueprint** — auto-build dashboards from code, not clicking
+- **Explore = Magnifying Glass** — quickly investigate logs/traces
 
-Master Grafana — the leading open-source dashboard and visualization platform. Learn data sources, panels, alerting, templating, provisioning, and how to build production-grade observability dashboards that make infrastructure visible.
+## What's Inside
+- **15 Chapters** — From What is Observability? to Production Dashboards
+- **10 Hands-on Labs** with copy-paste + expected screenshots
+- **Capstone** — Build production-grade Kubernetes observability stack (Prometheus + Grafana + Alerts)
+- **Progress Tracking** — localStorage
+- **Dark/Light Theme** — Grafana-like
+- **Pure HTML/CSS/JS** — No build, GitHub Pages ready
 
-## Part of the Blueprint Series
+## Curriculum
+### Phase 1: Foundations
+1. What is Observability? — Car Dashboard Analogy
+2. Grafana vs Prometheus vs Loki — TV vs Meter vs Diary
+3. Installing Grafana — First TV Setup
 
-| # | Blueprint | Category | Status |
-|---|-----------|----------|--------|
-| 1 | [ansible-guide](https://github.com/nkydigitech/ansible-guide) | Automation | ✅ Live |
-| 2 | [terraform-blueprint](https://github.com/nkydigitech/terraform-blueprint) | IaC | ✅ Live |
-| 3 | [aws-blueprint](https://github.com/nkydigitech/aws-blueprint) | Cloud | ✅ Live |
-| 4 | [azure-blueprint](https://github.com/nkydigitech/azure-blueprint) | Cloud | ✅ Live |
-| 5 | [kubernetes-blueprint](https://github.com/nkydigitech/kubernetes-blueprint) | Orchestration | ✅ Live |
-| 6 | [linux-blueprint](https://github.com/nkydigitech/linux-blueprint) | Fundamentals | ✅ Live |
-| 7 | [github-blueprint](https://github.com/nkydigitech/github-blueprint) | Version Control | 🚧 Coming Soon |
-| 8 | [docker-blueprint](https://github.com/nkydigitech/docker-blueprint) | Containers | ✅ Live |
-| 9 | [bash-scripting-blueprint](https://github.com/nkydigitech/bash-scripting-blueprint) | Scripting | 🚧 Coming Soon |
-| 10 | **sdlc-blueprint** | **Methodology** | **🚧 Coming Soon** |
-| 11 | [cicd-blueprint](https://github.com/nkydigitech/cicd-blueprint) | CI/CD | 🚧 Coming Soon |
-| 12 | [jenkins-blueprint](https://github.com/nkydigitech/jenkins-blueprint) | CI/CD | 🚧 Coming Soon |
-| 13 | [azure-devops-blueprint](https://github.com/nkydigitech/azure-devops-blueprint) | DevOps Platform | 🚧 Coming Soon |
-| 14 | [prometheus-blueprint](https://github.com/nkydigitech/prometheus-blueprint) | Monitoring | 🚧 Coming Soon |
-| 15 | **grafana-blueprint** | Visualization | 🚧 Coming Soon |
-| 16 | [openshift-blueprint](https://github.com/nkydigitech/openshift-blueprint) | Enterprise K8s | 🚧 Coming Soon |
-| 17 | [cybersecurity-blueprint](https://github.com/nkydigitech/cybersecurity-blueprint) | DevSecOps | 🚧 Coming Soon |
+### Phase 2: Core Building Blocks
+4. Data Sources — Connecting Power Plants
+5. Panels — Your First TV Screen (Time Series, Stat, Table, Gauge)
+6. Dashboards — Building the Wall
+7. Transformations & Overrides — Make Data Pretty
 
-## Connect
+### Phase 3: Dynamic & Smart
+8. Variables & Templating — Remote Control
+9. Alerts — Smoke Alarms
+10. Annotations & Links — Sticky Notes on Timeline
+11. Explore & Loki — Magnifying Glass for Logs
 
-- **LinkedIn:** Nkechi Ahanonye (https://www.linkedin.com/in/nkechiahanonye)
-- **X (Twitter):** @NAhanonye (https://www.x.com/NAhanonye)
-- **Facebook:** Nkydigitech (https://web.facebook.com/nkydigitech)
-- **Instagram:** @nahanonye (https://www.instagram.com/nahanonye/)
-- **TikTok:** @nkechiahanonye (https://www.tiktok.com/@nkechiahanonye)
-- **Portfolio:** nkydigitech.github.io/nky-portfolio (https://nkydigitech.github.io/nky-portfolio/)
+### Phase 4: Production Superpowers
+12. Provisioning — Dashboards as Code
+13. Folders, RBAC & Teams — Who Sees What
+14. Real-world Stack: Prometheus + Node Exporter + K8s
+15. Best Practices & Capstone: Production Observability Wall
 
----
+## Labs
+Lab 1: Install & first data source | Lab 2: First panel | Lab 3: Full dashboard | Lab 4: Variables | Lab 5: Alert with Slack | Lab 6: Loki logs | Lab 7: Provisioning YAML | Lab 8: K8s cluster dashboard | Lab 9: Node exporter metrics | Lab 10: SLO dashboard | Capstone: Production wall with alerts, templating, provisioning
 
-Built with ❤️ for the DevOps community. Especially for African engineers who deserve accessible, relatable learning resources.
+Built with ❤️ for global DevOps community.
