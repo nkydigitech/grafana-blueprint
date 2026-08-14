@@ -1,4 +1,7 @@
 # Grafana Blueprint — Zero to Hero (Global Edition)
+
+Cloud & DevOps Engineer | I turn manual, 3 AM-breaking deployments into 1-min automated pipelines with AWS + Ansible + Terraform | Featured: 15-Module Ansible Lab with real terminal
+
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white)
 ![Observability](https://img.shields.io/badge/Observability-Dashboards-blue)
